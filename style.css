@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Proxima-Nova';
-    src: url('resources\fonts\proxima-nova.otf') format('opentype');
+    src: url('resources/fonts/proxima-nova.otf') format('opentype');
 }
 
 div {
@@ -21,7 +21,10 @@ div {
 }
 
 .intro-box{
-  background-image: url('resources\images\api_header.jpg');
+  margin: 0;
+  background-image: url('resources/images/api_header.jpg');
+  background-size: 1440px 800px;
   background-repeat: no-repeat;
-  
+  display: compact;
+  font: 13px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
