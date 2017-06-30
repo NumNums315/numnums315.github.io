@@ -26,7 +26,4 @@ ul {
 
 #intro{
   background-image: url('resources/images/api_header.jpg');
-  min-height:550px;
-	position: relative;
-	padding-top:12px !important; 
 }
