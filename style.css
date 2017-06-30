@@ -18,14 +18,15 @@ div {
 }
 
 .med-size-btn {
-  width: 400px !important;
+  width: 300px !important;
   margin: 10px;
 }
 
 .intro-box{
   margin: 0;
   background-image: url('resources/images/api_header.jpg');
-  background-size: 1920px 558px;
+  background-size:contain;
   background-repeat: no-repeat;
   display: compact;
+  min-height: 558px;
 }
