@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Proxima-Nova';
-    src: url('proxima-nova.otf') format('opentype');
+    src: url('resources/fonts/proxima-nova.otf') format('opentype');
 }
 
 div {
@@ -22,4 +22,11 @@ ul {
 .med-size-btn {
   width: 400px !important;
   margin: 10px;
+}
+
+#intro{
+  background-image: url('resources/images/api_header.jpg');
+  min-height:550px;
+	position: relative;
+	padding-top:12px !important; 
 }
