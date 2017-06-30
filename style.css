@@ -21,7 +21,7 @@ ul {
 
 .med-size-btn {
   width: 400px !important;
-  padding: : 10px;
+  margin: 10px;
   display: flex;
   align-items: center;
 }
