@@ -25,6 +25,7 @@ div {
 .intro-box{
   margin: 0;
   background-image: url('resources/images/api_header.jpg');
+  background-size: 1920px 558px;
   background-repeat: no-repeat;
   display: compact;
 }
