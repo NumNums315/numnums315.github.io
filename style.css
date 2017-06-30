@@ -21,5 +21,7 @@ div {
 }
 
 .intro-box{
-  background-color: Pink;
+  background-image: url('resources\images\api_header.jpg');
+  background-repeat: no-repeat;
+  
 }
