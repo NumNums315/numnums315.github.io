@@ -3,6 +3,11 @@
     src: url('resources/fonts/proxima-nova.otf') format('opentype');
 }
 
+body {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 div {
   border: 10em;
   padding-bottom: 20px;
