@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Proxima-Nova';
+    src: url('proxima-nova.otf') format('opentype');
+}
+
+div {
+    border: 0.01em solid black
+}
+
+ul {
+    list-style-type: none;
+}
+
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+}
