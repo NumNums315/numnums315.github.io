@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Proxima-Nova';
-    src: url('resources/fonts/proxima-nova.otf') format('opentype');
+    src: url('resources\fonts\proxima-nova.otf') format('opentype');
 }
 
 div {
-    
+
 }
 
 ul {
@@ -25,5 +25,7 @@ ul {
 }
 
 #intro{
-  background-image: url('resources/images/api_header.jpg');
+  background-image: url('resources\images\api_header.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
 }
