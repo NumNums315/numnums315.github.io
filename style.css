@@ -4,11 +4,7 @@
 }
 
 div {
-
-}
-
-ul {
-    list-style-type: none;
+  border: 10em;
 }
 
 .vertical-center {
@@ -25,7 +21,5 @@ ul {
 }
 
 #intro{
-  background-image: url('resources\images\api_header.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: Pink;
 }
