@@ -1,21 +1,37 @@
 div {
-    border: 3px solid black;
+    //border: 3px solid black;
+}
+.intro-header {
+  padding: 20px;
 }
 .info {
   text-align: center;
+  padding: 10px;
+}
+.info-links {
+  background-color: white;
+}
+.submit {
+  padding: 20px;
+  background-color: #F5F5F5;
 }
 .links {
+  padding: 10px;
   text-align: center;
+  background-color: white;
 }
 .video {
   text-align: center;
 }
 .btn, .btn-large, .btn-flat {
-  background-color: #21A1EC;
+  background-color: #21A1EC !important;
 }
 .btn-large {
   width: 200px;
 }
 .btn {
   width: 200px;
+}
+.content {
+  background-color: #F5F5F5;
 }
