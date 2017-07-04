@@ -1,3 +1,21 @@
 div {
     border: 3px solid black;
 }
+.info {
+  text-align: center;
+}
+.links {
+  text-align: center;
+}
+.video {
+  text-align: center;
+}
+.btn, .btn-large, .btn-flat {
+  background-color: #21A1EC;
+}
+.btn-large {
+  width: 200px;
+}
+.btn {
+  width: 200px;
+}
