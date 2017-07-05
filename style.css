@@ -33,10 +33,24 @@ div {
 }
 .btn {
   width: 200px;
+  margin-bottom: 20px;
 }
 .content {
   background-color: #F5F5F5;
 }
 .carousel {
     height: 250px !important;
+}
+.link-text {
+  height: 350px;
+}
+
+.mobile-link, .alexa-link, .chat-link {
+  padding-bottom: 10px
+}
+.container {
+  width: 90% !important;
+}
+.api-button {
+  margin-top: 18px;
 }
