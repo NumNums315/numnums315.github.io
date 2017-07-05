@@ -19,6 +19,8 @@ div {
   padding: 10px;
   text-align: center;
   background-color: white;
+  vertical-align: center;
+  height: 250px;
 }
 .video {
   text-align: center;
@@ -34,4 +36,7 @@ div {
 }
 .content {
   background-color: #F5F5F5;
+}
+.carousel {
+    height: 250px !important;
 }
