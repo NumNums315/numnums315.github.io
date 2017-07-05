@@ -1,6 +1,13 @@
 div {
     //border: 3px solid black;
 }
+@font-face {
+  font-family: 'Proxima-Nova'
+  src: url('resources\fonts\proximanova-regular-webfont.woff') format('woff');
+}
+body {
+  font-family: 'Proxima-Nova', sans-serif;
+}
 .intro-header {
   padding: 20px;
 }
