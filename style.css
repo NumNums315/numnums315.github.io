@@ -3,13 +3,44 @@ div {
 }
 @font-face {
   font-family: 'Proxima-Nova'
-  src: url('resources\fonts\proximanova-regular-webfont.woff') format('woff');
+  src: url('resources\\fonts\\proximanova-regular-webfont.woff') format('woff');
 }
 body {
-  font-family: 'Proxima-Nova', sans-serif;
+  font-family: 'Proxima-Nova', arial !important;
 }
 .intro-header {
   padding: 20px;
+  background-image: url('resources\\images\\api_header.jpg');
+  background-repeat: repeat-y;
+  background-repeat: repeat-x;
+  color: white;
+}
+.btn, .btn-large, .btn-flat {
+  background-color: #21A1EC !important;
+}
+.btn-large {
+  width: 200px;
+}
+.btn {
+  width: 200px;
+  margin-bottom: 20px;
+}
+.small-btn {
+  vertical-align: bottom;
+  display: inline;
+  height: 30px !important;
+  width: 20px !important;
+  background-color: white !important;
+  color: black;
+  border-radius: 5px !important;
+}
+.small-video {
+  background-image: url('resources\\images\\api-intro-img.png');
+  text-align: center;
+}
+.big-video {
+  background-image: url('resources\\images\\api-intro-img.png');
+  text-align: center;
 }
 .info {
   text-align: center;
@@ -32,16 +63,7 @@ body {
 .video {
   text-align: center;
 }
-.btn, .btn-large, .btn-flat {
-  background-color: #21A1EC !important;
-}
-.btn-large {
-  width: 200px;
-}
-.btn {
-  width: 200px;
-  margin-bottom: 20px;
-}
+
 .content {
   background-color: #F5F5F5;
 }
