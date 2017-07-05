@@ -9,9 +9,9 @@ body {
   font-family: 'Proxima-Nova', arial !important;
 }
 .intro-header {
-  padding: 20px;
+  padding: 20px 5% 20px 5%;
   background-image: url('resources\\images\\api_header.jpg');
-  background-repeat: repeat-y;
+  background-size: 100% 100%;
   background-repeat: repeat-x;
   color: white;
 }
@@ -45,6 +45,9 @@ body {
 .info {
   text-align: center;
   padding: 10px;
+}
+.lessons {
+  text-align: center;
 }
 .info-links {
   background-color: white;
