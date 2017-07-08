@@ -2,11 +2,11 @@ div {
     //border: 3px solid black;
 }
 @font-face {
-  font-family: 'Proxima-Nova'
+  font-family: 'Proxima-Nova';
   src: url('resources\\fonts\\proximanova-regular-webfont.woff') format('woff');
 }
 body {
-  font-family: 'Proxima-Nova', arial !important;
+  font-family: 'Proxima-Nova', sans-serif !important;
 }
 .intro-header {
   padding: 20px 5% 20px 5%;
@@ -22,8 +22,12 @@ body {
 .btn-large {
   width: 200px;
 }
+#beta {
+  padding: 0px 4px 0px 4px;
+  border-radius: 2px;
+}
 .btn {
-  width: 200px;
+  width: 220px;
   margin-bottom: 20px;
 }
 .small-btn {
@@ -41,11 +45,11 @@ body {
       background-color: rgba(82, 113, 255, 0.8);
 }
 .small-video {
-  background-image: url('resources\\images\\api-intro-img.png');
+  /*background-image: url('resources\\images\\api-intro-img.png');*/
   text-align: center;
 }
 .big-video {
-  background-image: url('resources\\images\\api-intro-img.png');
+  /*background-image: url('resources\\images\\api-intro-img.png');*/
   text-align: center;
 }
 .info {
@@ -80,7 +84,7 @@ body {
     height: 250px !important;
 }
 .link-text {
-  height: 200px;
+  min-height: 200px;
   padding-left: 5%;
   padding-right: 5%
 }
