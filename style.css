@@ -1,100 +1,24 @@
-div {
-    //border: 3px solid black;
-}
-@font-face {
-  font-family: 'Proxima-Nova';
-  src: url('resources\\fonts\\proximanova-regular-webfont.woff') format('woff');
-}
-body {
-  font-family: 'Proxima-Nova', sans-serif !important;
-}
-.intro-header {
-  padding: 20px 5% 20px 5%;
-  background-image: url('resources\\images\\api_header.jpg');
-  background-size: auto 100%;
-  background-repeat: repeat-x;
-  color: white;
-}
-.btn, .btn-large {
-  background-color: #21A1EC !important;
-  color: #ffffff;
-}
-.btn-large {
-  width: 200px;
-}
-#beta {
-  padding: 0px 4px 0px 4px;
-  border-radius: 2px;
-}
-.btn {
-  width: 220px;
-  margin-bottom: 20px;
-}
-.small-btn {
-  vertical-align: bottom;
-  display: inline;
-  height: 30px !important;
-  width: 20px !important;
-  background-color: white !important;
-  color: black;
-  border-radius: 5px !important;
-}
-.waves-effect.waves-blue1 .waves-ripple {
-     /* The alpha value allows the text and background color
-     of the button to still show through. */
-      background-color: rgba(82, 113, 255, 0.8);
-}
-.small-video {
-  /*background-image: url('resources\\images\\api-intro-img.png');*/
-  text-align: center;
-}
-.big-video {
-  /*background-image: url('resources\\images\\api-intro-img.png');*/
-  text-align: center;
-}
-.info {
-  text-align: center;
-  padding: 10px;
-}
-.lessons {
-  text-align: center;
-}
-.info-links {
-  background-color: white;
-}
-.submit {
-  padding: 20px;
-  background-color: #F5F5F5;
-}
-.links {
-  padding: 10px;
-  text-align: center;
-  background-color: white;
-  vertical-align: center;
-  height: 250px;
-}
-.video {
-  text-align: center;
+.segment {
+    height: 100vh;
+    width: 100vw;
 }
 
-.content {
-  background-color: #F5F5F5;
-}
-.carousel {
-    height: 250px !important;
-}
-.link-text {
-  min-height: 200px;
-  padding-left: 5%;
-  padding-right: 5%
+#hero {
+    background-image: url('http://cdn.wallpapersafari.com/27/30/d1PYqC.jpg');
 }
 
-.mobile-link, .alexa-link, .chat-link {
-  padding-bottom: 10px
+#content1 {
+   background-image: url('http://cdn.wallpapersafari.com/27/30/d1PYqC.jpg');
 }
-.container {
-  width: 90% !important;
+
+#content2 {
+    background-image: url('http://cdn.wallpapersafari.com/27/30/d1PYqC.jpg');
 }
-.api-button {
-  margin-top: 18px;
+
+#content3 {
+    background-image: url('http://cdn.wallpapersafari.com/27/30/d1PYqC.jpg');
+}
+
+#content4 {
+    background-image: url('http://cdn.wallpapersafari.com/27/30/d1PYqC.jpg');
 }
