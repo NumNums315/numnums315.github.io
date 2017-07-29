@@ -5,6 +5,10 @@
     background-color: white;
 }
 
+body {
+    color: #21A1EC;
+}
+
 .divide {
     height: 50vh;
     width: 100%;

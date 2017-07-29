@@ -35,6 +35,6 @@ $('.parallax').parallax();
 
 $(document).ready(function () {
     $('#menu').pushpin({
-        top: $(window).height(),
+        top: $(window).height() + 2,
     });
 });
