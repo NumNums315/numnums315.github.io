@@ -1,24 +1,60 @@
 .segment {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
+    background-color: aquamarine;
+    padding: 5%;
+}
+
+.divide {
+    height: 50vh;
+    width: 100%;
 }
 
 #hero {
-    background-image: url('http://cdn.wallpapersafari.com/27/30/d1PYqC.jpg');
+    background-image: url('resources/images/hero%20header.png');
+    background-size: auto 100vh;
+    background-position: center;
 }
 
-#content1 {
-   background-image: url('http://cdn.wallpapersafari.com/27/30/d1PYqC.jpg');
+.bpblue-text {
+    color: #21A1EC;
 }
 
-#content2 {
-    background-image: url('http://cdn.wallpapersafari.com/27/30/d1PYqC.jpg');
+#nav-mobile>li>a {
+    color: #21A1EC;
 }
 
-#content3 {
-    background-image: url('http://cdn.wallpapersafari.com/27/30/d1PYqC.jpg');
+#voice-circle {
+    width: 30%;
+    height: auto;
 }
 
-#content4 {
-    background-image: url('http://cdn.wallpapersafari.com/27/30/d1PYqC.jpg');
+.hero-btn {
+    margin: 10px;
+    width: 300px;
+}
+
+#hero-content {
+    width: 100%;
+    height: 100vh;
+}
+
+#hero-child {
+    width: 100%;
+}
+
+.pin-top {
+    position: relative;
+}
+
+.pin-bottom {
+    position: relative;
+}
+
+.pinned {
+    position: fixed !important;
+}
+
+#menu{
+    z-index: 999
 }
