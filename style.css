@@ -1,8 +1,8 @@
 .segment {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
-    background-color: aquamarine;
-    padding: 5%;
+    padding: 7%;
+    background-color: white;
 }
 
 .divide {
@@ -14,6 +14,7 @@
     background-image: url('resources/images/hero%20header.png');
     background-size: auto 100vh;
     background-position: center;
+    height: 100vh;
 }
 
 .bpblue-text {
@@ -57,4 +58,18 @@
 
 #menu{
     z-index: 999
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-content {
+    padding: 10px;
+    margin: 5%;
+    color: #21A1EC;
+    border: 1px grey solid;
+    border-radius: 20px;
+    min-height: 800px
 }
