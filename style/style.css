@@ -1,15 +1,15 @@
 #hero {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-color: #21a1ec;
 }
 
 section {
-    width: 100vw;
+    width: 100%;
 }
 
 #hero-content {
-    width: 100vw;
+    width: 100%;
 }
 
 #header-image {
@@ -33,7 +33,7 @@ section {
 
 .pinned {
     position: fixed !important;
-    width: 100vw;
+    width: 100%;
     z-index: 998;
 }
 
@@ -56,9 +56,9 @@ section {
 }
 
 .segment {
-    padding: 5vw;
+    padding: 5%;
 }
 
-html {
-    overflow: hidden;
+.nav-wrapper > ul {
+    color: #21a1ec;
 }
