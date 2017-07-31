@@ -58,3 +58,7 @@ section {
 .segment {
     padding: 5%;
 }
+
+html {
+    overflow: hidden;
+}
