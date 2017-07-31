@@ -1,51 +1,26 @@
-.segment {
-    min-height: 100vh;
-    width: 100%;
-    padding: 7%;
-    background-color: white;
-}
-
-body {
-    color: #21A1EC;
-}
-
-.divide {
-    height: 50vh;
-    width: 100%;
-}
-
 #hero {
-    background-image: url('resources/images/hero%20header.png');
-    background-size: auto 100vh;
-    background-position: center;
     height: 100vh;
+    width: 100%;
+    background-color: #21a1ec;
 }
 
-.bpblue-text {
-    color: #21A1EC;
-}
-
-#nav-mobile>li>a {
-    color: #21A1EC;
-}
-
-#voice-circle {
-    width: 30%;
-    height: auto;
-}
-
-.hero-btn {
-    margin: 10px;
-    width: 300px;
+section {
+    width: 100%;
 }
 
 #hero-content {
     width: 100%;
-    height: 100vh;
 }
 
-#hero-child {
-    width: 100%;
+#header-image {
+    width: 400px;
+    height: 400px;
+}
+
+.btn {
+    margin: 10px;
+    min-width: 300px;
+    color: #21a1ec;
 }
 
 .pin-top {
@@ -58,22 +33,28 @@ body {
 
 .pinned {
     position: fixed !important;
+    width: 100%;
+    z-index: 998;
 }
 
-#menu{
-    z-index: 999
+.segment {
+    min-height: 100vh;
 }
 
-.feature-box {
-    text-align: center;
-    padding: 5%;
+#mobile-demo {
+    z-index: 998;
 }
 
 .feature-content {
-    padding: 10px;
-    margin: 5%;
-    color: #21A1EC;
-    border: 1px grey solid;
-    border-radius: 20px;
-    min-height: 800px
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid #21a1ec;
+}
+
+#nav-holder {
+    height: 100px;
+}
+
+.segment {
+    padding: 5%;
 }
