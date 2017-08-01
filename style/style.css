@@ -40,6 +40,7 @@ body {
 .segment {
     min-height: 100vh;
     width: 100%;
+    background-color: white;
 }
 
 #mobile-demo {
