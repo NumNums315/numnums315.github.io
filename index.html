@@ -24,6 +24,9 @@
             <div id="header-buttons row">
                 <a class="waves-effect btn white blue-text waves-blue1" ng-repeat="button in hero.buttons" ng-href="{{button.link}}">{{button.label}}</a>
             </div>
+            <div id="hero-arrow">
+                <a href="#features" class="btn-floating large pulse"><i class="material-icons large white-text">arrow_drop_down</i></a>
+            </div>
         </div>
     </section>
     <section id="nav-holder">
@@ -42,7 +45,9 @@
                         <li class="center-align">
                             <h1 class="blue-text">Voice</h1>
                         </li>
-                        <li><div class="divider"></div></li>
+                        <li>
+                            <div class="divider"></div>
+                        </li>
                         <li><a href="#features">Features</a></li>
                         <li><a href="#testimonials">Testimonials</a></li>
                         <li><a href="#workshops">Workshops</a></li>
@@ -54,6 +59,7 @@
     </section>
     <section id="features" class="segment">
         <div class="row center-align">
+            <h1 class="bpblue-text">Features</h1>
             <div class="col m12 l4 feature-box">
                 <div class="feature-content center-align">
                     <h1><i class="material-icons large">{{features.icons[0]}}</i></h1>
@@ -85,30 +91,89 @@
     </section>
     <section id="divider">
         <div class="parallax-container pc">
-         <div class="parallax">
-            <img ng-src="{{dividers.pimgsrc}}">
-         </div>
-      </div>
+            <div class="parallax">
+                <img ng-src="{{dividers.pimgsrc}}">
+            </div>
+        </div>
     </section>
-    <section id="testimonials" class="segment">
-
+    <section id="testimonials" class="segment center-align">
+        <h1 class="bpblue-text">Testimonials</h1>
+        <div class="row">
+            <div class="col m12 l7 push-l5">
+                <div class="card horizontal">
+                    <div class="card-image">
+                        <img ng-src="{{testimonials.images[0]}}" />
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <p class="flow-text">
+                                {{testimonials.texts[0].content}}
+                            </p>
+                        </div>
+                        <div class="card-content">
+                            <p>
+                                -{{testimonials.people[0]}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col m12 l7">
+                <div class="card horizontal">
+                    <div class="card-image">
+                        <img ng-src="{{testimonials.images[1]}}" />
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <p class="flow-text">
+                                {{testimonials.texts[1].content}}
+                            </p>
+                        </div>
+                        <div class="card-content">
+                            <p>
+                                -{{testimonials.people[1]}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col m12 l7 push-l5">
+                <div class="card horizontal">
+                    <div class="card-image">
+                        <img ng-src="{{testimonials.images[2]}}" />
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <p class="flow-text">
+                                {{testimonials.texts[2].content}}
+                            </p>
+                        </div>
+                        <div class="card-content">
+                            <p>
+                                -{{testimonials.people[2]}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <section id="divider">
         <div class="parallax-container pc">
-         <div class="parallax">
-            <img ng-src="{{dividers.pimgsrc}}">
-         </div>
-      </div>
+            <div class="parallax">
+                <img ng-src="{{dividers.pimgsrc}}">
+            </div>
+        </div>
     </section>
     <section id="workshops" class="segment">
 
     </section>
     <section id="divider">
         <div class="parallax-container pc">
-         <div class="parallax">
-            <img ng-src="{{dividers.pimgsrc}}">
-         </div>
-      </div>
+            <div class="parallax">
+                <img ng-src="{{dividers.pimgsrc}}">
+            </div>
+        </div>
     </section>
     <section id="pricing" class="segment">
 

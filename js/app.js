@@ -1,4 +1,3 @@
-//updated Model July 5th 11:32 ss
 var username = "bigparserwebtest@gmail.com";
 var password = "Lot'sOfLittleSquares";
 var gridId = "5980a7f9eead2105727275ed";
@@ -22,9 +21,9 @@ angular.module('grid', []).controller('gridController', ['$scope', function ($sc
         err: []
     }
 
-    $scope.Testimonials = {
+    $scope.testimonials = {
         images: [],
-        titles: [],
+        people: [],
         texts: [],
         err: []
     }
@@ -180,7 +179,7 @@ angular.module('grid', []).controller('gridController', ['$scope', function ($sc
                 case "Testimonials":
                     i++; //skip element attribute
                     row = data.rows[i];
-                    var scope = $scope.Testimonials;
+                    var scope = $scope.testimonials;
 
                     while (!row.data[0].includes("End")) {
                         var lab = row.data[0];
@@ -189,12 +188,13 @@ angular.module('grid', []).controller('gridController', ['$scope', function ($sc
                         var len = lab.split(" ").length;
 
                         if (vis == "yes") {
+                            console.log(val +" " + lab);
                             switch (lab.split(" ")[len - 1]) {
                                 case "Image":
                                     scope.images.push(val);
                                     break;
-                                case "Header":
-                                    scope.titles.push(val);
+                                case "Person":
+                                    scope.people.push(val);
                                     break;
                                 case "Text":
                                     scope.texts.push({

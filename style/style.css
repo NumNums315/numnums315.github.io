@@ -52,6 +52,7 @@ body {
     margin: 20px;
     border-radius: 10px;
     border: 1px solid #21a1ec;
+    min-height: 800px;
 }
 
 #nav-holder {
@@ -68,6 +69,10 @@ body {
 
 .bpblue {
     background-color: #21a1ec !important;
+}
+
+.bpblue-text {
+    color: #21a1ec !important;
 }
 
 .nav-wrapper {
