@@ -46,6 +46,7 @@ section {
 }
 
 .feature-content {
+    padding: 20px;
     margin: 20px;
     border-radius: 10px;
     border: 1px solid #21a1ec;
@@ -61,4 +62,12 @@ section {
 
 .nav-wrapper > ul {
     color: #21a1ec;
+}
+
+.bpblue {
+    background-color: #21a1ec !important;
+}
+
+.nav-wrapper {
+    padding: 0px 30px 0px 30px;
 }

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html prefix="og: http://ogp.me/ns#" ng-app="grid" ng-controller="gridController as g">
 
 <head>
     <title>Voice</title>
@@ -19,18 +19,17 @@
     <section id="hero" class="valign-wrapper">
         <div id="hero-content" class="center-align">
             <div>
-                <img id="header-image" src="resources/images/voice-circle.png" />
+                <img id="header-image" ng-src="{{hero.centerimgsrc}}" />
             </div>
-            <div id="header-buttons">
-                <a href="#" class="btn white">Lorem</a><br/>
-                <a href="#" class="btn white">Ipsum</a>
+            <div id="header-buttons row">
+                <a class="waves-effect btn white blue-text waves-blue1" ng-repeat="button in hero.buttons" ng-href="{{button.link}}">{{button.label}}</a>
             </div>
         </div>
     </section>
     <section id="nav-holder">
         <div id="menu" class="pinned">
             <nav>
-                <div class="nav-wrapper white">
+                <div class="nav-wrapper bpblue">
                     <a href="#hero" class="brand-logo center">Voice</a>
                     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down">
@@ -43,6 +42,7 @@
                         <li class="center-align">
                             <h1 class="blue-text">Voice</h1>
                         </li>
+                        <li><div class="divider"></div></li>
                         <li><a href="#features">Features</a></li>
                         <li><a href="#testimonials">Testimonials</a></li>
                         <li><a href="#workshops">Workshops</a></li>
@@ -56,54 +56,66 @@
         <div class="row center-align">
             <div class="col s12 m4 feature-box">
                 <div class="feature-content center-align">
-                    <h1><i class="material-icons large">question_answer</i></h1>
-                    <h2>Questions</h2>
+                    <h1><i class="material-icons large">{{features.icons[0]}}</i></h1>
+                    <h2>{{features.headers[0]}}</h2>
                     <p>
-
+                        {{features.texts[0].content}}
                     </p>
                 </div>
             </div>
             <div class="col s12 m4 feature-box">
                 <div class="feature-content">
-                    <h1><i class="material-icons large">grid_on</i></h1>
-                    <h2>Requests</h2>
+                    <h1><i class="material-icons large">{{features.icons[1]}}</i></h1>
+                    <h2>{{features.headers[1]}}</h2>
                     <p>
-
+                        {{features.texts[1].content}}
                     </p>
                 </div>
             </div>
             <div class="col s12 m4 feature-box">
                 <div class="feature-content">
-                    <h1><i class="material-icons large">error</i></h1>
-                    <h2>Alerts</h2>
+                    <h1><i class="material-icons large">{{features.icons[2]}}</i></h1>
+                    <h2>{{features.headers[2]}}</h2>
                     <p>
-
+                        {{features.texts[2].content}}
                     </p>
                 </div>
             </div>
         </div>
     </section>
     <section id="divider">
-
+        <div class="parallax-container">
+            <div class="parallax">
+                <img ng-src="{{divider.pimgsrc}}"/>
+            </div>
+        </div>
     </section>
     <section id="testimonials" class="segment">
 
     </section>
     <section id="divider">
-
+        <div class="parallax-container">
+            <div class="parallax">
+                <img ng-src="{{divider.pimgsrc}}"/>
+            </div>
+        </div>
     </section>
     <section id="workshops" class="segment">
 
     </section>
     <section id="divider">
-
+        <div class="parallax-container">
+            <div class="parallax">
+                <img ng-src="{{divider.pimgsrc}}"/>
+            </div>
+        </div>
     </section>
     <section id="pricing" class="segment">
 
     </section>
 </body>
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
-<script src="js/app.js"></script>
-
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+<script src="js/app.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
 </html>
