@@ -240,7 +240,7 @@ angular.module('grid', []).controller('gridController', ['$scope', function ($sc
                 top: $(window).height(),
             }
             else {
-                top: screen.availHeight;
+                top: window.screen.height;
             }
         });
 
