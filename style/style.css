@@ -9,17 +9,13 @@ body {
     background-color: #21a1ec;
 }
 
-section {
-    width: 100%;
-}
-
 #hero-content {
     width: 100%;
 }
 
 #header-image {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
 }
 
 .btn {
