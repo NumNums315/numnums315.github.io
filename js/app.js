@@ -18,7 +18,7 @@ angular.module('grid', []).controller('gridController', ['$scope', function ($sc
     }
     
     $scope.dividers = {
-        pimg: "",
+        pimgsrc: "",
         err: []
     }
 
